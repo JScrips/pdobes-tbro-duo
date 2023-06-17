@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <nav className=" flex justify-center p-8 items-center bg-sky-500">
-      <p>Footer</p>
+      <p>This is the bottom of the website.</p>
     </nav>
   );
 };

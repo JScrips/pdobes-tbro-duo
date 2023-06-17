@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Layout from "./layout/Layout.jsx";
 import ParisComponent from "./components/paris-components/diablo-html/ParisComponent";
 import App from "./App";
+import YmanComponent from "./components/yman-components/YmanComponent.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/paris",
         element: <ParisComponent />,
+      },
+      {
+        path: "/yman",
+        element: <YmanComponent />,
       },
     ],
   },
