@@ -7,7 +7,7 @@ const Header = () => {
   };
 
   return (
-    <nav className=" flex justify-between p-8 items-center bg-sky-500">
+    <nav className=" flex justify-between p-8 items-center bg-green-400">
       <div>Logo</div>
       <ul className="flex gap-6">
         <li>
@@ -26,6 +26,15 @@ const Header = () => {
             className={({ isActive }) => (isActive ? `${styles.active}` : "")}
           >
             Paris Page
+          </NavLink>
+        </li>
+        <li>
+          <NavLink
+            to={"/yman"}
+            end
+            className={({ isActive }) => (isActive ? `${styles.active}` : "")}
+          >
+            Yman Page
           </NavLink>
         </li>
       </ul>
